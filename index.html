@@ -1,0 +1,112 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Happy Onam</title>
+		<style>
+			.split {
+			  height: 100%;
+			  width: 50%;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+			}
+		
+			.left {
+			  left: 0;
+			  background-color: #111;
+			}
+			
+			.right {
+			  right: 0;
+			  background-color: red;
+			}
+		
+			.centered {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			}
+		
+			.centered img {
+			  width: 150px;
+			  border-radius: 50%;
+			}
+			#card{
+				margin-top:100px;
+				margin-left:100px;
+				font-size:70px;
+				text-align:center;
+				color:SlateBlue;
+			
+			}
+			
+			
+			
+			
+		</style>	
+	
+  </head>
+  <body>
+
+
+	<script type="text/javascript">
+			 function myFunction() {
+				var x=Math.floor(Math.random() * 8 ) + 1;
+				document.getElementById("card").innerHTML =  ' <div class="card" id="card" style="width: 18rem; height:100px;">  '+x+' </div> ';   
+			}		
+	</script>
+    
+	<div class="split left">
+		<div class="container">
+ 
+			<button type="button" onclick="myFunction()" class="btn btn-secondary btn-lg btn-block ">Try Your Luck</button>
+			
+				<div id="card"></div>
+				 
+		</div>
+		<div style="position:relative; float:top;padding-top:100px;padding-left:260px;"> <img src="https://media.glassdoor.com/sqll/3291542/daivik-technologies-squarelogo-1583723618854.png"></div>
+		<div style="font-size:40px; text-align:center;"> Happy Onam </div>
+
+
+	</div>
+
+	<div class="split right">
+		<div class="container">
+ 
+		 <ul class="list-group mx-5 my-5">
+		  <li class="list-group-item">Task 1</li>
+		  <li class="list-group-item">Task 2</li>
+		  <li class="list-group-item">Task 3</li>
+		  <li class="list-group-item">Task 4</li>
+		  <li class="list-group-item">Task 5</li>
+		  <li class="list-group-item">Task 2</li>
+		  <li class="list-group-item">Task 3</li>
+		  <li class="list-group-item">Task 4</li>
+		  <li class="list-group-item">Task 5</li>
+		</ul>
+		</div>
+	</div>
+
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
